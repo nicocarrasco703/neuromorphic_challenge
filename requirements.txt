@@ -1,0 +1,9 @@
+# Runtime dependencies
+numpy
+opencv-python
+
+# Development and test dependency
+pytest
+
+# OpenEB / Metavision is intentionally not listed here: it is installed with
+# the camera stack on the target system and provides metavision_core.
